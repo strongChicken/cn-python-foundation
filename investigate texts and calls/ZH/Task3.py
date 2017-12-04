@@ -29,7 +29,7 @@ for index in range(len(calls)):
 
 aim_set = set()
 for temp in BLR_rece:
-    if (' ' == temp[5] and ('7'or'8'or'9') == temp[0]):
+    if ' ' == temp[5]:
         code_mobi = temp[0:4]
         aim_set.add(code_mobi)
 
